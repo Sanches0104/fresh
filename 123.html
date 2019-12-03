@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>ПРИМЕР</title>
+<div class="el">Element 1</div>
+<div class="el">Element 2</div>
+<style>
+  .el {
+    background: #eef;
+  }
+  .red {
+    color: #f00;
+  }
+</style>
+<script>
+  var elCollection = document.getElementsByClassName('btn-show');
+  console.dir(elCollection);
+  var elNodes = document.querySelectorAll('.btn-show');
+  console.dir(elNodes);
+  for (var i = 0; i < elCollection.length; i++) {
+    var elem = elCollection[i];
+    console.log(elem);
+    elem.addEventListener('click', function() {
+      this.classList.toggle('red');
+    });
+  }
+</script>

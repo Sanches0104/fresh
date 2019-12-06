@@ -1,5 +1,5 @@
 .main-box {
-  padding: 3rem;
+  padding: 1rem;
   margin-top: 80px;
 }
 .sly {
@@ -48,4 +48,185 @@
 }
 .btn-show:first-child {
   margin-top: 0px;
+}
+.home-demo h2 {
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+.el {
+  width: 100%;
+  background-color: #262162;
+}
+.el::before {
+  float: left;
+  background-image: url(../img/right.png);
+  /* background-position: left; */
+  background-repeat: no-repeat;
+  display: inline-block;
+  content: '';
+  background-size: 100%;
+  /* background-position: 50%; */
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.red::before {
+  float: left;
+  background-image: url(../img/dowm.png);
+  /* background-position: left; */
+  background-repeat: no-repeat;
+  display: inline-block;
+  content: '';
+  background-size: 100%;
+  /* background-position: 50%; */
+  margin-right: 0.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-box {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .el {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
+.home-demo .item:hover {
+  -webkit-filter: brightness(145%);
+}
+.home-demo .item {
+  -webkit-filter: brightness(65%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 100px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.info-about-us {
+  margin-top: 1.6rem;
+}
+
+.item-carousel-1 {
+  background-image: url(../img/Бимол.png);
+}
+.item-carousel-2 {
+  background-image: url(../img/ВП.png);
+}
+.item-carousel-3 {
+  background-image: url(../img/ВР.png);
+}
+.item-carousel-4 {
+  background-image: url(../img/ВР2.png);
+}
+.item-carousel-5 {
+  background-image: url(../img/Еко.png);
+}
+.item-carousel-6 {
+  background-image: url(../img/Злагода.png);
+}
+.item-carousel-7 {
+  background-image: url(../img/МВ.png);
+}
+.item-carousel-8 {
+  background-image: url(../img/МК.png);
+}
+.item-carousel-9 {
+  background-image: url(../img/МО.png);
+}
+.item-carousel-10 {
+  background-image: url(../img/ПАГРО.png);
+}
+.item-carousel-11 {
+  background-image: url(../img/ХМСБ.png);
+}
+.item-carousel-12 {
+  background-image: url(../img/Yatran.png);
+}
+.item-carousel-13 {
+  background-image: url(../img/Mlekovita.png);
+}
+.item-carousel-14 {
+  background-image: url(../img/Lactima.png);
+}
+.item-carousel-15 {
+  background-image: url(../img/Laciate.png);
+}
+.title-partners {
+  text-align: center;
+}
+.title-partners::after {
+  display: block;
+  content: '';
+  width: 200px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+@media screen and (min-width: 550px) {
+  .home-demo .item {
+    height: 150px;
+  }
+}
+@media screen and (min-width: 880px) {
+  .home-demo .item {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .home-demo .item {
+    height: 250px;
+  }
+  .title-about {
+    font-size: 2rem;
+  }
+  .title-about::after {
+    width: 137px;
+  }
+  .title-partners::after {
+    width: 255px;
+  }
+  .text-about-us {
+    line-height: 21px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home-demo .item {
+    background-size: 75%;
+  }
+  .title-about {
+    font-size: 2.5rem;
+  }
+  .title-about::after {
+    width: 170px;
+  }
+  .title-partners::after {
+    width: 255px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .home-demo .item {
+    background-size: 65%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sly {
+    width: 85%;
+    margin: 0 auto;
+  }
 }

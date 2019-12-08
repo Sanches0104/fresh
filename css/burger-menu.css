@@ -43,8 +43,7 @@
   transform: 1s;
 }
 .header__logo img {
-  max-width: 100%;
-  display: block;
+  width: 120%;
 }
 .header__burger {
   display: none;

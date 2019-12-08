@@ -1,0 +1,88 @@
+.testburg-main {
+  text-align: center;
+  margin-top: 3rem;
+  color: #262162;
+  padding: 0 1.5rem;
+}
+.title__trp {
+  margin-top: 1rem;
+}
+.slider-testburg {
+  margin-top: 3.2rem;
+}
+.none-img {
+  display: none;
+}
+.title__trp {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.descr__trp {
+  margin-top: 1rem;
+}
+.second-section-testburg {
+  margin-top: 4rem;
+}
+.tite__descr__truck {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #bf1e2d;
+  text-align: center;
+}
+.descr__trp {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.descr__truck {
+  line-height: 20px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.second-column {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .descr__trp {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .none-img {
+    display: block;
+  }
+  .block-img {
+    display: none;
+  }
+  .slider-testburg {
+    margin-top: 3.2rem;
+  }
+  .title-car-test {
+    font-size: 1.5rem;
+  }
+  .testburg-main {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 920px) {
+  .second-column img {
+    padding: 0 10rem;
+  }
+  .testburg-main {
+    padding: 0 5rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .second-column img {
+    width: 50rem;
+    padding: 0px;
+  }
+  .testburg-main {
+    padding: 0 5rem;
+  }
+  .first-column {
+    width: 100%;
+  }
+  .second-column {
+    width: 50rem;
+  }
+}

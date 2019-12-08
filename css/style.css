@@ -1,78 +1,20 @@
 @import 'burger-menu.css' screen;
 @import 'main.css' screen;
+@import 'marka.css' screen;
+@import 'testburg.css' screen;
+@import 'contact.css' screen;
+@import 'about-us.css' screen;
 @import 'slider.css' screen;
 @import 'footer.css' screen;
 @import 'media-footer.css' screen;
 
-html {
-  box-sizing: border-box;
-}
 body {
   min-width: 320px;
   max-width: 2000px;
   margin: 0 auto;
-  height: 100%;
   font-family: 'Roboto', sans-serif;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 img {
   display: block;
   width: 100%;
 }
-/* .div-show {
-  zoom: 40%;
-  position: relative;
-  width: 150px;
-  height: 125px;
-  background-color: #262162;
-  cursor: pointer;
-}
-
-.span {
-  position: absolute;
-  display: block;
-  left: 15px;
-  width: 120px;
-  height: 10px;
-  background-color: white;
-  transition: all 300ms ease;
-}
-
-.span1 {
-  top: 15px;
-}
-
-.open {
-  left: 0px;
-}
-
-.span1.open {
-  transform-origin: right bottom;
-  transform: rotate(-45deg);
-}
-
-.span2 {
-  top: 50%;
-  transform: translateY(-50%);
-  transition-duration: 600ms;
-}
-
-.span2.open {
-  left: -1000px;
-  opacity: 0;
-}
-
-.span3 {
-  bottom: 15px;
-}
-
-.span3.open {
-  transform-origin: right top;
-  transform: rotate(45deg);
-} */

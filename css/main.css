@@ -25,21 +25,21 @@
   content: '';
   width: 120px;
   height: 3px;
-  background-color: red;
+  background-color: #bf1e2d;
 }
 .contin-about {
-  color: red;
+  color: #bf1e2d;
   cursor: pointer;
 }
 .btn-about {
   margin-top: 10px;
-  border: 1px solid red;
+  border: 1px solid #bf1e2d;
   padding: 0.5rem;
   color: white;
   background-color: #262162;
 }
 .btn-about:hover {
-  color: red;
+  color: #bf1e2d;
 }
 .btn-show {
   display: block;
@@ -102,10 +102,10 @@
 }
 
 .home-demo .item:hover {
-  -webkit-filter: brightness(145%);
+  -webkit-filter: brightness(100%);
 }
 .home-demo .item {
-  -webkit-filter: brightness(65%);
+  -webkit-filter: brightness(50%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -163,7 +163,7 @@
   background-image: url(../img/Lactima.png);
 }
 .item-carousel-15 {
-  background-image: url(../img/Laciate.png);
+  background-image: url(../img/zdorovo.png);
 }
 .title-partners {
   text-align: center;
@@ -174,7 +174,7 @@
   width: 200px;
   height: 3px;
   margin: 0 auto;
-  background-color: red;
+  background-color: #bf1e2d;
 }
 
 @media screen and (min-width: 550px) {

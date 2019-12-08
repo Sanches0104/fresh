@@ -67,6 +67,11 @@
 .info-logo-footer {
   margin: 20px 0;
 }
+.menu-item-footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 .map-footer {
   margin-top: 20px;
 }

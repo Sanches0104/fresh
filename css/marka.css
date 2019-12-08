@@ -1,0 +1,66 @@
+.marka-box {
+  padding: 0 2rem;
+  margin-top: 6rem;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-description {
+  margin-top: 2rem;
+}
+.description-brand-text {
+  color: #262162;
+  margin-top: 3rem;
+}
+.img-description {
+  width: 50%;
+}
+.text-milk-edge {
+  color: #262162;
+}
+.title-haslo {
+  margin-top: 1rem;
+  color: #262162;
+}
+.text-milk-edge {
+  margin-top: 1rem;
+}
+.text-haslo {
+  color: #bf1e2d;
+  font-weight: bold;
+  font-style: italic;
+}
+.img-description img {
+  margin-top: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .description-reverse {
+    flex-direction: row-reverse;
+  }
+  .description-brand-text {
+    margin: 0;
+  }
+  .description {
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .marka-box {
+    padding: 0 8rem;
+  }
+  .description-brand-text {
+    font-size: 1.2rem;
+    line-height: 21px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .marka-box {
+    padding: 0 17rem;
+  }
+  .description-brand-text {
+    font-size: 1.2rem;
+    line-height: 21px;
+  }
+}
